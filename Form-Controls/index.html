@@ -22,10 +22,16 @@
   6. No JavaScript allowed
 -->
 
-
 <fieldset>
   <legend>Customer Details</legend>
-  <!-- name + email will go here -->
+   <label for="name">Full Name</label>
+  <input
+    type="text"
+    id="name"
+    name="name"
+    required
+    pattern=".*\S.*\S.*"
+  />
 </fieldset>
 
 <fieldset>
